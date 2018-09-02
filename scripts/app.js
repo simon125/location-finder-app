@@ -77,7 +77,7 @@ const getLocationInfo = (e) => {
     const zip = e.target.zipCode.value
     const country = e.target.country.value
 
-    fetch(`http://api.zippopotam.us/${country}/${zip}`)
+    fetch(`https://api.zippopotam.us/${country}/${zip}`)
         .then(resp => {
             if (resp.status !== 200) {
                 document.querySelector('#output').innerHTML = alertMessage()
