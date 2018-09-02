@@ -1,6 +1,6 @@
 # location-finder-app
 
-Welcome! This is a location-finder-app it is simple app which use [http://www.zippopotam.us/](Zippopotam.us),
+Welcome! This is a location-finder-app it is simple app which use [Zippopotam.us](http://www.zippopotam.us/),
 it can help you find place thanks only zipcode.
 
 After refreshing bootstrap 4 I have made this simple app with best tutor traversy. I learn a lot with him and I recommmend his productions for improving skills. 
