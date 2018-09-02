@@ -36,7 +36,9 @@ const displayData = (country, placeName, state, longitude, latitide, zip) => {
     return `<div class="card">
                 <div class="card-header">
                     Location info about place with ${zip} zip code
-                    <span class="float-right turn-off" style="cursor:pointer">&times;</span> 
+                    <span 
+                    data-toggle="modal" data-target="#myModal"
+                    class="float-right turn-off" style="cursor:pointer">&times;</span> 
                 </div>
                 <div class="card-body">
                     <p class="card-text">
