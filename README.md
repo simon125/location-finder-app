@@ -17,4 +17,4 @@ After refreshing bootstrap 4 I have made this simple app with best tutor travers
 
 ### If you want watch progress click on the link below 
 
-[https://simon125.github.io/location-finder-app/](LOCATION FINDER)
+[https://simon125.github.io/location-finder-app/](LINK)
