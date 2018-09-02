@@ -22,11 +22,16 @@
 
                 <div class="form-group input-group input-group-lg">
                     <div class="input-group-prepend">
-                        <span class="input-group-text">&times;</span>
+                        <span class="input-group-text">
+                            <i class="fa fa-map-pin"></i>
+                        </span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Type here a zipcode...">
-                    <div class="input-group-append">
-                        <span class="input-group-text">dupa</span>
+                    <input type="text" name="zipCode" class="form-control" placeholder="Type here a zipcode...">
+                    <div class="input-group-append icon-place d-none">
+                        <span class="input-group-text">
+                            <i class="fa fa-check d-none"></i>
+                            <i class="fa fa-times d-none"></i>
+                        </span>
                     </div>
                     <div class="invalid-feedback">
                         Something goes wrong, please try again.
@@ -37,11 +42,13 @@
 
         </div>
 
-        <div class="alert alert-danger">
-            <strong>Danger</strong> Something gona wrong
+        <div id="output">
+
         </div>
 
-        <div class="card">
+
+
+        <!-- <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Location info</h3>
             </div>
@@ -61,7 +68,7 @@
                 <button class="btn btn-success btn-block">Find on the map</button>
             </div>
 
-        </div>
+        </div> -->
 
 
     </div>
