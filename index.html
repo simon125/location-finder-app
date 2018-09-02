@@ -17,7 +17,7 @@
         <div class="jumbotron bg-dark text-light mt-4">
 
             <h1 class="display-5">Location finder</h1>
-            <p class="lead">Enter a zpicode to get the location info</p>
+            <p class="lead">Enter a zpicode and choose a country to get the location info</p>
             <form id="zipForm">
 
                 <div class="form-group input-group input-group-lg">
@@ -37,19 +37,21 @@
                         Something goes wrong, please try again.
                     </div>
                 </div>
+                <div class="input-group form-group">
+                    <select class="custom-select" name="country">
+                        <option selected value="PL">Choose country...</option>
+                        <option value="DE">Germany</option>
+                        <option value="FR">France</option>
+                        <option value="PL">Poland</option>
+                        <option value="US">USA</option>
+                    </select>
+                </div>
             </form>
-
-
         </div>
 
         <div id="output">
 
         </div>
-
-
-
-
-
 
     </div>
 
